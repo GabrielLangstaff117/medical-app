@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="aa_XaGSg9rZIUvyn7P5M">
-    <mxGraphModel dx="1612" dy="679" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2334" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -224,14 +224,14 @@
         <mxCell id="TFPIFBbgdeLHU3ntDAym-67" value="booking&lt;div&gt;process&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-260" y="969" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-68" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-68" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.075;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TFPIFBbgdeLHU3ntDAym-65">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="-374" y="1055" as="sourcePoint" />
             <mxPoint x="-269" y="1021" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-69" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-69" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TFPIFBbgdeLHU3ntDAym-70">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="-373.5" y="1063.5" as="sourcePoint" />
             <mxPoint x="-206" y="1064" as="targetPoint" />
@@ -239,12 +239,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-70" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-203" y="1038" width="55" height="54" as="geometry" />
+          <mxGeometry x="-312" y="1062" width="55" height="54" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-71" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;check avaliability&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-195.5" y="1050" width="40" height="14" as="geometry" />
+          <mxGeometry x="-304.5" y="1074" width="40" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-72" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.725;entryY=0.913;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-70" target="TFPIFBbgdeLHU3ntDAym-65">
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-72" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-70" target="TFPIFBbgdeLHU3ntDAym-65">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="-310" y="1056" as="sourcePoint" />
             <mxPoint x="-205" y="1022" as="targetPoint" />
@@ -253,54 +253,37 @@
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-73" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-218" y="1122" as="sourcePoint" />
-            <mxPoint x="-192" y="1093" as="targetPoint" />
+            <mxPoint x="-220.5" y="1198" as="sourcePoint" />
+            <mxPoint x="-194.5" y="1169" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-74" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-183" y="1098" as="sourcePoint" />
-            <mxPoint x="-210" y="1132" as="targetPoint" />
+            <mxPoint x="-185.5" y="1174" as="sourcePoint" />
+            <mxPoint x="-212.5" y="1208" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-75" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-152" y="1094" as="sourcePoint" />
-            <mxPoint x="-128" y="1128" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-76" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
-          <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-235" y="905" as="sourcePoint" />
-            <mxPoint x="-237" y="935" as="targetPoint" />
+            <mxPoint x="-154.5" y="1170" as="sourcePoint" />
+            <mxPoint x="-130.5" y="1204" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-77" value="Doctor list" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="1136" width="60" height="30" as="geometry" />
+          <mxGeometry x="-147.5" y="1212" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-78" value="time slots" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-254.5" y="1138" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-79" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
-          <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-219" y="934" as="sourcePoint" />
-            <mxPoint x="-219" y="903" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
+          <mxGeometry x="-257" y="1214" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-80" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
-            <mxPoint x="-142" y="1133" as="sourcePoint" />
-            <mxPoint x="-159" y="1104" as="targetPoint" />
+            <mxPoint x="-144.5" y="1209" as="sourcePoint" />
+            <mxPoint x="-161.5" y="1180" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-81" value="bookings storage" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-257" y="872" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-82" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -321,11 +304,11 @@
         <mxCell id="TFPIFBbgdeLHU3ntDAym-86" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-107" y="1002" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-87" value="report for admin" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-97" y="1029" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-87" target="TFPIFBbgdeLHU3ntDAym-87">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-88" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-67" y="1059" as="sourcePoint" />
+            <mxPoint x="-67" y="1059" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-89" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="TFPIFBbgdeLHU3ntDAym-86">
           <mxGeometry width="120" relative="1" as="geometry">
@@ -786,6 +769,9 @@
           <mxGeometry x="660" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-183" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;cancellation&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;process&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="1030" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
