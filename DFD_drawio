@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="aa_XaGSg9rZIUvyn7P5M">
-    <mxGraphModel dx="3589" dy="1656" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5183" dy="2374" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,6 +212,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-562" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-64" target="TFPIFBbgdeLHU3ntDAym-563">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-388.52941176470586" y="856.4117647058824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-458" y="938" width="70" height="52" as="geometry" />
         </mxCell>
@@ -334,6 +339,9 @@
             <mxPoint x="-104" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-566" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-194" target="TFPIFBbgdeLHU3ntDAym-563">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-194" value="database" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-131" y="1024" width="54" height="54" as="geometry" />
         </mxCell>
@@ -348,7 +356,7 @@
         <mxCell id="TFPIFBbgdeLHU3ntDAym-202" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#B85450;" edge="1" parent="1">
           <mxGeometry width="120" relative="1" as="geometry">
             <mxPoint x="-349" y="911" as="sourcePoint" />
-            <mxPoint x="-342" y="997" as="targetPoint" />
+            <mxPoint x="-365" y="1039" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -363,7 +371,7 @@
           <mxGeometry x="122" y="1112" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-308" value="report" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-121" y="1132" width="60" height="30" as="geometry" />
+          <mxGeometry x="-131" y="1112" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-432" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="-432" y="1331" width="60" height="40" as="geometry">
@@ -610,9 +618,6 @@
             <mxRectangle width="60" height="48" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-481" value="report" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-101" y="1152" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-482" value="Key assets" style="shape=table;childLayout=tableLayout;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="1">
           <mxGeometry x="-485" y="-274" width="880" height="280" as="geometry" />
         </mxCell>
@@ -624,44 +629,61 @@
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-502" value="Identification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-484">
-          <mxGeometry x="6" y="8" width="108" height="31" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-502" value="Identification&lt;div&gt;name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;dob,&lt;/div&gt;&lt;div&gt;&amp;nbsp;address&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-484">
+          <mxGeometry x="3" y="3" width="108" height="89" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-485" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="160" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-506" value="appointment&amp;nbsp;&lt;div&gt;data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-485">
-          <mxGeometry x="5" y="8" width="111" height="50" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-506" value="appointment&amp;nbsp;&lt;div&gt;data&lt;/div&gt;&lt;div&gt;(time,&amp;nbsp;&lt;/div&gt;&lt;div&gt;local,&amp;nbsp;&lt;/div&gt;&lt;div&gt;provider)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-485">
+          <mxGeometry x="4.5" y="7" width="111" height="108" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-486" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="280" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-507" value="patient data&amp;nbsp;&lt;div&gt;data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-486">
-          <mxGeometry x="8" y="10" width="106" height="50" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-507" value="patient data&amp;nbsp;&lt;div&gt;(identification)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-486">
+          <mxGeometry x="2" y="10" width="118" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-487" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="400" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-514" value="passwords/&lt;div&gt;&amp;nbsp;username/&amp;nbsp;&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-487">
+          <mxGeometry x="9" y="-2" width="102" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-488" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="520" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-517" value="medical&amp;nbsp;&lt;div&gt;history&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-488">
+          <mxGeometry x="17" y="13" width="78" height="50" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-489" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="640" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-519" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-489">
+          <mxGeometry x="1" y="-5" width="120" height="120" as="geometry">
+            <mxRectangle width="120" height="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-520" value="contact data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-519">
+          <mxGeometry x="8" y="28" width="105" height="31" as="geometry" />
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-490" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;strokeColor=inherit;connectable=0;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-483">
           <mxGeometry x="760" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-522" value="chat logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-490">
+          <mxGeometry x="19.5" y="22.5" width="82" height="31" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-491" value="patient" style="shape=tableRow;horizontal=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;strokeColor=inherit;bottom=0;right=0;dropTarget=0;fontStyle=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-482">
           <mxGeometry y="160" width="880" height="120" as="geometry" />
@@ -671,16 +693,16 @@
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-503" value="Identification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-492">
-          <mxGeometry x="6" y="11" width="108" height="31" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-516" value="Identification&lt;div&gt;name,&amp;nbsp;&lt;/div&gt;&lt;div&gt;dob,&lt;/div&gt;&lt;div&gt;&amp;nbsp;address&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-492">
+          <mxGeometry x="6" y="8" width="108" height="89" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-493" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-491">
           <mxGeometry x="160" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TFPIFBbgdeLHU3ntDAym-505" value="appointment&amp;nbsp;&lt;div&gt;data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-493">
-          <mxGeometry x="7" y="2" width="111" height="50" as="geometry" />
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-521" value="appointment&amp;nbsp;&lt;div&gt;data&lt;/div&gt;&lt;div&gt;(time,&amp;nbsp;&lt;/div&gt;&lt;div&gt;local,&amp;nbsp;&lt;/div&gt;&lt;div&gt;provider)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-493">
+          <mxGeometry x="4.5" y="2" width="111" height="108" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-494" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-491">
           <mxGeometry x="280" width="120" height="120" as="geometry">
@@ -692,6 +714,9 @@
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-515" value="passwords/&lt;div&gt;&amp;nbsp;username/&amp;nbsp;&lt;/div&gt;&lt;div&gt;email&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-495">
+          <mxGeometry x="9" y="2" width="102" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-496" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-491">
           <mxGeometry x="520" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
@@ -702,10 +727,16 @@
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-518" value="contact data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-497">
+          <mxGeometry x="8" y="28" width="105" height="31" as="geometry" />
+        </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-498" value="" style="swimlane;swimlaneHead=0;swimlaneBody=0;fontStyle=0;connectable=0;strokeColor=inherit;fillColor=none;startSize=0;collapsible=0;recursiveResize=0;expand=0;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-491">
           <mxGeometry x="760" width="120" height="120" as="geometry">
             <mxRectangle width="120" height="120" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-523" value="chat logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-498">
+          <mxGeometry x="19" y="28" width="82" height="31" as="geometry" />
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-508" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.981;entryY=0.815;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-206" target="TFPIFBbgdeLHU3ntDAym-194">
           <mxGeometry relative="1" as="geometry" />
@@ -725,6 +756,145 @@
         </mxCell>
         <mxCell id="TFPIFBbgdeLHU3ntDAym-513" value="doctor" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="245" y="922" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-524" value="possible scenarios" style="shape=table;startSize=49;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+          <mxGeometry x="-366" y="1693" width="572.2352941176475" height="384.23529411764866" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-525" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-524">
+          <mxGeometry y="49" width="572.2352941176475" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-526" value="&lt;div&gt;impact: high&lt;/div&gt;&lt;div&gt;likelihood: medium&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;stolen credentials lead to log into and extract sensitive data" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-525">
+          <mxGeometry width="131" height="156" as="geometry">
+            <mxRectangle width="131" height="156" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-527" value="&lt;div&gt;&lt;div&gt;impact: high&lt;/div&gt;&lt;div&gt;likelihood: low&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;exploitation of api&#39;s can be used to call patient data" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-525">
+          <mxGeometry x="131" width="152" height="156" as="geometry">
+            <mxRectangle width="152" height="156" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-528" value="&lt;div&gt;&lt;div&gt;impact: medium&lt;/div&gt;&lt;div&gt;likelihood:low&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;injection attacks to retrieve data" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-525">
+          <mxGeometry x="283" width="147" height="156" as="geometry">
+            <mxRectangle width="147" height="156" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-529" value="&lt;div&gt;&lt;div&gt;impact: high&lt;/div&gt;&lt;div&gt;likelihood: medium&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;denial of service attacks that prevent use of application&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#b85450;overflow=hidden;fillColor=#f8cecc;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-525">
+          <mxGeometry x="430" width="142" height="156" as="geometry">
+            <mxRectangle width="142" height="156" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-530" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-524">
+          <mxGeometry y="205" width="572.2352941176475" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-531" value="2 factor auth&lt;div&gt;password policies&lt;/div&gt;&lt;div&gt;captcha&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-530">
+          <mxGeometry width="131" height="179" as="geometry">
+            <mxRectangle width="131" height="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-532" value="secure communications&lt;div&gt;input validation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-530">
+          <mxGeometry x="131" width="152" height="179" as="geometry">
+            <mxRectangle width="152" height="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-533" value="para-queries&lt;div&gt;input validation&lt;/div&gt;&lt;div&gt;database permissions&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-530">
+          <mxGeometry x="283" width="147" height="179" as="geometry">
+            <mxRectangle width="147" height="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-534" value="traffic filtering (wafs)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#82b366;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="TFPIFBbgdeLHU3ntDAym-530">
+          <mxGeometry x="430" width="142" height="179" as="geometry">
+            <mxRectangle width="142" height="179" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-535" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;curved=1;shape=link;width=8;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="-441" y="1659" as="sourcePoint" />
+            <mxPoint x="191" y="1659" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-537" value="threat" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="1742" width="59" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-538" value="mitigation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-462.5" y="1825.5" width="86" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-548" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-539" target="TFPIFBbgdeLHU3ntDAym-540">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-549" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-539" target="TFPIFBbgdeLHU3ntDAym-541">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-539" value="booking requests" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="897" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-559" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-540" target="TFPIFBbgdeLHU3ntDAym-542">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-540" value="cancel/ deny" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="484" y="796" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-550" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-541" target="TFPIFBbgdeLHU3ntDAym-545">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-557" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-541" target="TFPIFBbgdeLHU3ntDAym-542">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-541" value="appointment setup process" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554" y="897" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-560" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-542" target="TFPIFBbgdeLHU3ntDAym-546">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-542" value="booking certificate" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="709" y="825" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-553" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-544" target="TFPIFBbgdeLHU3ntDAym-545">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-556" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-544" target="TFPIFBbgdeLHU3ntDAym-512">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-544" value="log patient data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="324" y="1024" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-545" value="database" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="1058" width="92" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-546" value="patient" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="734" y="1019" width="92" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-547" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.005;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-512" target="TFPIFBbgdeLHU3ntDAym-539">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-554" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.314;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-512" target="TFPIFBbgdeLHU3ntDAym-544">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-555" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.961;entryY=0.287;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-545" target="TFPIFBbgdeLHU3ntDAym-544">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-558" value="report" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="589" y="996" width="60" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-563" value="appointment data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="1058" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-565" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.384;entryY=-0.127;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="TFPIFBbgdeLHU3ntDAym-308" target="TFPIFBbgdeLHU3ntDAym-308">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-567" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#B85450;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="343" y="892" as="sourcePoint" />
+            <mxPoint x="327" y="1020" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFPIFBbgdeLHU3ntDAym-568" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;dashed=1;dashPattern=8 8;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#B85450;" edge="1" parent="1">
+          <mxGeometry width="120" relative="1" as="geometry">
+            <mxPoint x="839" y="975" as="sourcePoint" />
+            <mxPoint x="730" y="991" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
