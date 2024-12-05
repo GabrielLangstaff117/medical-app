@@ -41,6 +41,13 @@ As a patient, I also want to cancel my appointment when needed so that I can res
 Evil: as a malicious user, I want to cancel other patients appointments to disrupt hospital operations. (mitigation the system requires users to authenticate and only allows them to manage their own appointments)
 
 
+4:As a doctor, I want to record details such as the date and doctors name and to update the patients medical history. This information must be securely linked to the patient record and stored securely.
+
+Evil: as an attacker, I want to alter schedules to disrupt hospital operations. To address this, the system enforces role-based access and validates all inputa as well as applydatabase integrity checks to prevent unauthorized modifications.
+
+
+
+
 
 
 
