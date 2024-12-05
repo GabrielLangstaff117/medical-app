@@ -26,17 +26,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize UI elements
         editTextUsername = findViewById(R.id.editTextUsername);
         editTextPassword = findViewById(R.id.editTextPassword);
         editTextConfirmPassword = findViewById(R.id.editTextConfirmPassword);
         buttonAction = findViewById(R.id.buttonAction);
         textViewToggle = findViewById(R.id.textViewToggle);
 
-        // Initialize database helper
         dbHelper = new DatabaseHelper(this);
 
-        // Handle button click (Login or Register)
         buttonAction.setOnClickListener(view -> {
             String username = editTextUsername.getText().toString().trim();
             String password = editTextPassword.getText().toString().trim();
@@ -63,11 +60,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Toggle between Login and Register modes
         textViewToggle.setOnClickListener(view -> toggleMode());
     }
 
-    // Validate login input
+
     private boolean validateLogin(String username, String password) {
         if (username.isEmpty() || password.isEmpty()) {
             Toast.makeText(this, "Fields cannot be empty!", Toast.LENGTH_SHORT).show();
@@ -76,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    // Validate registration input
     private boolean validateRegistration(String username, String password, String confirmPassword) {
         if (username.isEmpty() || password.isEmpty() || confirmPassword.isEmpty()) {
             Toast.makeText(this, "Fields cannot be empty!", Toast.LENGTH_SHORT).show();
@@ -89,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    // Toggle between login and registration modes
     private void toggleMode() {
         isRegisterMode = !isRegisterMode;
         editTextConfirmPassword.setVisibility(isRegisterMode ? View.VISIBLE : View.GONE);
@@ -97,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
         textViewToggle.setText(isRegisterMode ? "Already have an account? Login" : "Don't have an account? Register");
     }
 
-    // Navigate to Dashboard (dummy method)
     private void navigateToDashboard() {
         Toast.makeText(this, "Navigating to Dashboard...", Toast.LENGTH_SHORT).show();
         // Add Intent to navigate to Dashboard Activity
