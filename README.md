@@ -45,9 +45,11 @@ Evil: as a malicious user, I want to cancel other patients appointments to disru
 
 Evil: as an attacker, I want to alter schedules to disrupt hospital operations. To address this, the system enforces role-based access and validates all inputa as well as applydatabase integrity checks to prevent unauthorized modifications.
 
+5:As an admin, I want all sensitive data to be encrypted to preserve patient privacy. The system uses AES-256 encryption for data at rest and TLS
 
+As an admin, I also want all user actions logged so that unauthorized access or tampering can be traced. Logs include timestamps, user IDs, and actions performed
 
-
+Evil: as a malicious user, I want to tamper with sensitive data logs to erase traces of my activities (mitigation, the system employs secure logging mechanisms that are immutable and regularly audited)
 
 
 
@@ -59,5 +61,7 @@ contains multipul dfd drawings a basic threat map and stride
 
 lab 3 = xml file in layout, mainactivity and databasehelper
 
+
+lab 4:
 
 
