@@ -71,4 +71,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return db.rawQuery("SELECT * FROM " + TABLE_PATIENTS, null);
     }
 
+
+
 }
