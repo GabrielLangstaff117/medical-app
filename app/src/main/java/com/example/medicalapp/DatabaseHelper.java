@@ -77,13 +77,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String query = "SELECT * FROM " + TABLE_PATIENTS;
         Cursor cursor = db.rawQuery(query, null);
 
-        if (cursor != null && cursor.getCount() > 0) {
+        if (cursor != null && cursor.moveToFirst()) {
+
+            String[] columnNames = cursor.getColumnNames();
+            for (String columnName : columnNames) {
+                Log.d("DatabaseHelper", "Column: " + columnName); // Log each column name
+            }
+
             int nameIndex = cursor.getColumnIndex(COL_PATIENT_NAME);
             int ageIndex = cursor.getColumnIndex(COL_PATIENT_AGE);
             int genderIndex = cursor.getColumnIndex(COL_PATIENT_GENDER);
 
             if (nameIndex == -1 || ageIndex == -1 || genderIndex == -1) {
-                Log.e("DatabaseHelper", "One or more columns are missing from the result set.");
+                Log.e("DatabaseHelper", "One or more columns are missing");
             }
         }
 
@@ -95,5 +101,10 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return db.insert(TABLE_PATIENTS, null, values);
     }
 
-
+    public int deletePatient(String patientName) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        String whereClause = COL_PATIENT_NAME + " = ?";
+        String[] whereArgs = {patientName};
+        return db.delete(TABLE_PATIENTS, whereClause, whereArgs);
+    }
 }
