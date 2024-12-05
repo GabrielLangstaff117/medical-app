@@ -15,6 +15,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String COL_USERNAME = "username";
     private static final String COL_PASSWORD = "password";
 
+    private static final String TABLE_PATIENTS = "patients";
+    private static final String COL_PATIENT_ID = "id";
+    private static final String COL_PATIENT_NAME = "name";
+    private static final String COL_PATIENT_AGE = "age";
+    private static final String COL_PATIENT_GENDER = "gender";
+
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
@@ -25,6 +31,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 + COL_USERNAME + " TEXT, "
                 + COL_PASSWORD + " TEXT)";
         db.execSQL(CREATE_USERS_TABLE);
+
+        String CREATE_PATIENTS_TABLE = "CREATE TABLE " + TABLE_PATIENTS + "("
+                + COL_PATIENT_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
+                + COL_PATIENT_NAME + " TEXT, "
+                + COL_PATIENT_AGE + " INTEGER, "
+                + COL_PATIENT_GENDER + " TEXT)";
+        db.execSQL(CREATE_PATIENTS_TABLE);
     }
 
     @Override
