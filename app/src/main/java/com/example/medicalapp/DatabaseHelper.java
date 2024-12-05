@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "hospital.db";
@@ -71,6 +72,28 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return db.rawQuery("SELECT * FROM " + TABLE_PATIENTS, null);
     }
 
+    public Cursor getPatients() {
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT * FROM " + TABLE_PATIENTS;
+        Cursor cursor = db.rawQuery(query, null);
+
+        if (cursor != null && cursor.getCount() > 0) {
+            int nameIndex = cursor.getColumnIndex(COL_PATIENT_NAME);
+            int ageIndex = cursor.getColumnIndex(COL_PATIENT_AGE);
+            int genderIndex = cursor.getColumnIndex(COL_PATIENT_GENDER);
+
+            if (nameIndex == -1 || ageIndex == -1 || genderIndex == -1) {
+                Log.e("DatabaseHelper", "One or more columns are missing from the result set.");
+            }
+        }
+
+        return cursor;
+    }
+
+    public long addPatient(ContentValues values) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        return db.insert(TABLE_PATIENTS, null, values);
+    }
 
 
 }

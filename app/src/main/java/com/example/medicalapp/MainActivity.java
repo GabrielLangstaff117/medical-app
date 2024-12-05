@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 if (validateRegistration(username, password, confirmPassword)) {
                     if (dbHelper.addUser(username, password)) {
                         Toast.makeText(MainActivity.this, "Registration Successful!", Toast.LENGTH_SHORT).show();
-                        toggleMode(); // Switch to login mode after successful registration
+                        toggleMode();
                     } else {
                         Toast.makeText(MainActivity.this, "Registration Failed!", Toast.LENGTH_SHORT).show();
                     }
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void navigateToDashboard() {
         Toast.makeText(this, "Navigating to Dashboard...", Toast.LENGTH_SHORT).show();
-        // Add Intent to navigate to Dashboard Activity
     }
 
     public static class DatabaseHelper extends SQLiteOpenHelper {
