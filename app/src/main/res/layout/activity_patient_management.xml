@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@android:color/black">
 
     <EditText
         android:id="@+id/etName"
@@ -12,8 +13,10 @@
         android:layout_height="wrap_content"
         android:hint="Patient Name"
         android:inputType="textPersonName"
-        android:padding="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <EditText
         android:id="@+id/etAge"
@@ -21,8 +24,10 @@
         android:layout_height="wrap_content"
         android:hint="Patient Age"
         android:inputType="number"
-        android:padding="8dp"
-        android:layout_marginBottom="8dp"/>
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <EditText
         android:id="@+id/etGender"
@@ -30,8 +35,10 @@
         android:layout_height="wrap_content"
         android:hint="Patient Gender"
         android:inputType="textPersonName"
-        android:padding="8dp"
-        android:layout_marginBottom="16dp"/>
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +52,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Add Patient"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"/>
 
         <Button
             android:id="@+id/btnUpdate"
@@ -53,14 +62,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Update Patient"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"/>
 
         <Button
             android:id="@+id/btnClear"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Clear"/>
+            android:text="Clear"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"/>
     </LinearLayout>
 
     <ListView
@@ -71,5 +84,6 @@
         android:layout_marginTop="16dp"
         android:divider="@android:color/darker_gray"
         android:dividerHeight="1dp"
-        android:padding="8dp"/>
+        android:padding="8dp"
+        android:background="@android:color/black" />
 </LinearLayout>
