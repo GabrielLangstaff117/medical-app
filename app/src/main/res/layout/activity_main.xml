@@ -4,34 +4,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@android:color/black">
 
     <EditText
         android:id="@+id/editTextUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username" />
+        android:hint="Username"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <EditText
         android:id="@+id/editTextConfirmPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Password"
+        android:hint="Confirm Password"
         android:visibility="gone"
-        android:inputType="textPassword" />
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:hintTextColor="@android:color/gray" />
 
     <Button
         android:id="@+id/buttonAction"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/textViewToggle"
@@ -39,5 +55,6 @@
         android:layout_height="wrap_content"
         android:text="Don't have an account? Register"
         android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
         android:paddingTop="16dp" />
 </LinearLayout>
