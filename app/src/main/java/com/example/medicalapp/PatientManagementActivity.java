@@ -88,7 +88,7 @@ public class PatientManagementActivity extends AppCompatActivity {
         Cursor cursor = databaseHelper.getPatients();
         if (cursor != null && cursor.moveToFirst()) {
             do {
-                String patientName = cursor.getString(cursor.getColumnIndex("name"));
+                String patientName = cursor.getString(cursor.getColumnIndex("Name"));
                 patientList.add(patientName);
             } while (cursor.moveToNext());
             cursor.close();

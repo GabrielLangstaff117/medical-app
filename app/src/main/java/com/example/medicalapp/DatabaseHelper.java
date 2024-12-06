@@ -89,7 +89,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             int genderIndex = cursor.getColumnIndex(COL_PATIENT_GENDER);
 
             if (nameIndex == -1 || ageIndex == -1 || genderIndex == -1) {
-                Log.e("DatabaseHelper", "One or more columns are missing");
+
+                if (nameIndex == -1) {
+                    Log.e("DatabaseHelper", "Column not found: " + COL_PATIENT_NAME);
+                }
+                if (ageIndex == -1) {
+                    Log.e("DatabaseHelper", "Column not found: " + COL_PATIENT_AGE);
+                }
+                if (genderIndex == -1) {
+                    Log.e("DatabaseHelper", "Column not found: " + COL_PATIENT_GENDER);
+                }
             }
         }
 
