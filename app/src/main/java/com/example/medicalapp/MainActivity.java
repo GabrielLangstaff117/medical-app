@@ -2,6 +2,7 @@ package com.example.medicalapp;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
@@ -52,7 +53,11 @@ public class MainActivity extends AppCompatActivity {
                 if (validateLogin(username, password)) {
                     if (dbHelper.authenticateUser(username, password)) {
                         Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                        navigateToDashboard();
+
+                        Intent intent = new Intent(MainActivity.this, DashboardActivity.class);
+                        startActivity(intent);
+                        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
                     } else {
                         Toast.makeText(MainActivity.this, "Invalid Credentials!", Toast.LENGTH_SHORT).show();
                     }
