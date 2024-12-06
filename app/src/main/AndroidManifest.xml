@@ -37,9 +37,9 @@
 
         <!-- Dashboard Activity -->
         <activity
-            android:name=".Dashboard"
+            android:name=".DashboardActivity"
             android:exported="true"
-            android:label="Dashboard">
+            android:label="dashboard">
             <intent-filter>
                 <action android:name="com.example.medicalapp.DASHBOARD" />
                 <category android:name="android.intent.category.DEFAULT" />
