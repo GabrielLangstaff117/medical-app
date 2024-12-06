@@ -67,11 +67,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         return isAuthenticated;
     }
 
-    public Cursor getAllPatients() {
-        SQLiteDatabase db = this.getReadableDatabase();
-        return db.rawQuery("SELECT * FROM " + TABLE_PATIENTS, null);
-    }
-
     public Cursor getPatients() {
         SQLiteDatabase db = this.getReadableDatabase();
         String query = "SELECT * FROM " + TABLE_PATIENTS;

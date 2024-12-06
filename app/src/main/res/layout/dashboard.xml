@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/black">
 
     <TextView
-        android:id="@+id/textViewWelcome"
+        android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to the Dashboard!"
+        android:text="Welcome to the Dashboard"
+        android:textColor="@android:color/white"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textColor="@android:color/black" />
+        android:padding="16dp" />
 
+    <Button
+        android:id="@+id/btnPatientManagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Patient Management"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_dark" />
 </LinearLayout>
