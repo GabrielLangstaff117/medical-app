@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,15 +13,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MedicalApp"
         tools:targetApi="31">
+
+        <!-- MainActivity: The launcher activity -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Patient Management Activity -->
+        <activity
+            android:name=".PatientManagementActivity"
+            android:exported="true"
+            android:label="Patient Management">
+            <intent-filter>
+                <action android:name="com.example.medicalapp.PATIENT_MANAGEMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dashboard Activity -->
+        <activity
+            android:name=".Dashboard"
+            android:exported="true"
+            android:label="Dashboard">
+            <intent-filter>
+                <action android:name="com.example.medicalapp.DASHBOARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
